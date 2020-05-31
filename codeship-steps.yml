@@ -1,9 +1,0 @@
-- name: "cypress parallel tests"
-  type: parallel
-  steps:
-    - name: "first spec"
-      service: cypress_codeship_test
-      command: cypress run --spec cypress/integration/a-spec.js
-    - name: "second spec"
-      service: cypress_codeship_test
-      command: cypress run --spec cypress/integration/b-spec.js
