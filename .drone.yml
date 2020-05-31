@@ -24,7 +24,7 @@ steps:
   #     - ~/.npm
   commands:
   - npm ci
-  - npm run cypress:run --
+  - npm run cypress:run -- --record CYPRESS_RECORD_KEY
 
 # volumes:
 #   # cache NPM modules and Cypress binary
